@@ -619,7 +619,7 @@ body {
 
 .cta-black-arrow {
   padding-right: 3rem;
-  background-image: url("../images/icon-button-start.svg");
+  background-image: url("../images/icon-button-start-black.svg");
   background-repeat: no-repeat;
   background-position: 95% 55%;
 }
@@ -1695,6 +1695,12 @@ abbr[title] {
 .error {
   border-color: #d81e05;
 }
+
+.seek__advice__alert {
+  background-color: #ffc649;
+  padding: 15px;
+}
+
 
 .global-header {
   background-color: #0072c6;
