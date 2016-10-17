@@ -89,9 +89,22 @@
 
     <div class="local-header-white-bg">
       <div class="local-header--question">
-        <h1 class="local-header--title--question">This page cannot be found</h1>
-        <a href="index_11.html" class="link-back">Back</a>
 
+<!--
+        <div class="error-summary" role="group" aria-labelledby="error-summary-heading-example-1" tabindex="-1">
+
+        <h1 class="local-header--error error-summary-heading" id="error-summary-heading-example-1">
+          There is a problem with your location
+        </h1>
+
+        <ul class="error-summary-list">
+          <li><a href="#example-input-0">Use a valid postcode.</a></li>
+        </ul>
+
+      </div>
+-->
+
+        <h1 class="local-header--title--question">Find a pharmacy</h1>
       </div>
     </div>
 
@@ -100,14 +113,41 @@
     <div class="page-section">
       <div class="reading-width">
 
-        <p>
-        Check that you have entered the correct web address, or try the <a href="//nhs.uk/">NHS.UK home page</a>.
-
-        </p>
 
 
+
+        <form class="form" id="formname">
+
+
+          <div class="form-group error">
+          <fieldset>
+            <legend>
+
+              <span class="form-label-bold">
+                Enter a postcode
+              </span>
+              <span class="error-message">
+                Please enter a valid postcode
+              </span>
+
+            </legend>
+
+
+            <div class="form-group">
+              <input type="text" class="form-control" name="example-input-0" id="example-input-0" value="">
+            </div>
+          </fieldset>
+          </div>
+
+
+
+                <input type="submit" class="button" value="Continue">
+
+
+          </form>
         </div>
     </div>
+
 
     </main>
 
